@@ -67,7 +67,23 @@ header.carousel .fill {
     font-style: italic;
 }
 
+.iclc-p {
+  text-align: justify;
+}
+
 /* Footer Styles */
+
+.iclc-title {
+
+}
+
+.iclc-date {
+font-style: italic;
+}
+
+.iclc-div {
+  margin-top: 20px;
+}
 
 footer {
     margin: 50px 0;
