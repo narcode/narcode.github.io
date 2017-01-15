@@ -9,6 +9,7 @@
 html,
 body {
     height: 100%;
+    font-family: Monaco;
 }
 
 body {
@@ -83,6 +84,16 @@ font-style: italic;
 
 .iclc-div {
   margin-top: 20px;
+}
+
+.iclc-link {
+  color: red;
+  font-weight: bold;
+}
+
+.iclc-link:hover {
+  color: green;
+  text-decoration: none
 }
 
 #iclc-logo {
