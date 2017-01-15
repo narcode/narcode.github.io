@@ -92,6 +92,12 @@ font-style: italic;
   font-weight: bold;
 }
 
+.iclc-link:visited {
+  color: red;
+  font-weight: bold;
+  text-decoration: none
+}
+
 .iclc-link:hover {
   color: green;
   text-decoration: none
