@@ -98,6 +98,15 @@ font-style: italic;
 
 #iclc-logo {
   width: 361px;
+  height:313px;
+}
+
+.offset-r {
+  margin-left: 8%;
+}
+
+.offset-r2 {
+  margin-left: 10%;
 }
 
 footer {
