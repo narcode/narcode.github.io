@@ -29,6 +29,10 @@ body {
 
 .iclc-logo_cont {
   background-image: url("../images/logo.png");
+  height: 100%;
+background-repeat: no-repeat;
+background-size: 40%;
+background-position: center;
 }
 
 header#fondochido {
