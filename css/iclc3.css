@@ -27,7 +27,7 @@ body {
 
 /* Home Page Carousel */
 
-header.carousel {
+header#fondochido {
     height: 70%;
 }
 
