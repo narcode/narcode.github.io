@@ -1,4 +1,7 @@
-### TODO
+website for ICLC 2017 repo 
 
-# fel ->  glitch ese y subirl a github para organizadores
+https://narcode.github.io/
+
+### TODO ###
+
 # yect -> links en texto, trabajar en el menu, logo + images, colores, etc
