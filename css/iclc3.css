@@ -28,7 +28,7 @@ body {
 /* Home Page Fondo */
 
 .iclc-logo_cont {
-  background-image: url("images/logo.png");
+  background-image: url("../images/logo.png");
 }
 
 header#fondochido {
