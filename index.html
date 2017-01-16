@@ -172,7 +172,10 @@ var narcode = window.setInterval(fondorand, 500);
 
 function fondorand() {
 var num = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
-console.log(num)  ;
+//console.log(num);
+
+fondo.style.backgroundImage = "url(images/"+num+".png)";
+
 }
 
 })
