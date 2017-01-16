@@ -124,9 +124,9 @@ footer {
 .carousel-fade .carousel-inner .item {
   -webkit-transition-property: opacity;
   transition-property: opacity;
-  transition-duration: 2s;
+  transition-duration: 1s;
   transition-timing-function: linear;
-  -webkit-transition-duration: 2s;
+  -webkit-transition-duration: 1s;
   -webkit-transition-timing-function: linear;
 }
 .carousel-fade .carousel-inner .item,
