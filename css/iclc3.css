@@ -25,7 +25,11 @@ body {
     opacity: 0.8;
 }
 
-/* Home Page Carousel */
+/* Home Page Fondo */
+
+.iclc-logo_cont {
+  background-image: url("images/logo.png");
+}
 
 header#fondochido {
     height: 70%;
