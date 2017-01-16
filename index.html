@@ -167,11 +167,13 @@
     <!-- Script fondo chido-->
     <script>
 $(window).load( function() {
-//var fondo = document.querySelector('#fondochido');
+var fondo = document.querySelector('#fondochido');
+var narcode = window.setInterval(fondorand, 500);
 
-//fondo.style.opacity = 0
-
-console.log('narcode ready');
+function fondorand() {
+var num = Math.floor(Math.random() * (3 - 1 + 1)) + min;
+console.log(num)  ;
+}
 
 })
     </script>
