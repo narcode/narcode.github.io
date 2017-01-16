@@ -139,9 +139,9 @@ footer {
 .carousel-fade .carousel-inner .prev,
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
-  /*left: 0;
+  left: 0;
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);*/
+          transform: translate3d(0, 0, 0);
 }
 .carousel-fade .carousel-control {
   z-index: 2;
