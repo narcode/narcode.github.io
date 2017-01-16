@@ -28,9 +28,9 @@ body {
 /* Home Page Fondo */
 
 .iclc-logo_cont {
+  background-color: black;
   background-image: url("../images/logo.png");
   height: 100%;
-  background-color: black;
 background-repeat: no-repeat;
 background-size: 35%;
 background-position: center;
