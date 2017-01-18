@@ -33,10 +33,10 @@ body {
 }
 
 .iclc-logo_cont {
-  /*background-image: url("../images/header.png");*/
+background-image: url("../images/logo.png");
 height: 100%;
 background-repeat: no-repeat;
-background-size: 35%;
+background-size: 26%;
 background-position: center;
 }
 
@@ -143,6 +143,6 @@ footer {
     }
 
     header.carousel .carousel {
-        height: 70%;
+        height: 60%;
     }
 }
