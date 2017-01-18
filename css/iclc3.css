@@ -11,7 +11,7 @@ body {
     height: 100%;
     /*font-family: Inconsolata;*/
     font-family: Inconsolata;
-      src: url("Inconsolata-Regular.ttf");
+    src: url("Inconsolata-Regular.ttf");
     overflow-x: hidden;
 }
 
@@ -78,14 +78,16 @@ header#fondochido {
     font-style: italic;
 }
 
-.iclc-p {
+p {
+  margin-left: center;
+    margin-right: center;
+  padding-right: 200px; 
+  padding-left: 200px; 
   text-align: justify;
   z-index: 2;
   font-family: Inconsolata;
   src: url("Inconsolata-Regular.ttf");
   font-size: 14px;
-        margin-left: 0px;
-
 }
 
 /* Footer Styles */
