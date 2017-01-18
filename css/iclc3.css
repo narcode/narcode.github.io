@@ -9,7 +9,9 @@
 html,
 body {
     height: 100%;
+    /*font-family: Inconsolata;*/
     font-family: Inconsolata;
+      src: url("Inconsolata-Regular.ttf");
     overflow-x: hidden;
 }
 
