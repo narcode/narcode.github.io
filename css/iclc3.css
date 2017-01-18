@@ -40,16 +40,6 @@ header#fondochido {
     background-color: black;
 }
 
-header.carousel .item,
-header.carousel .item.active,
-header.carousel .carousel-inner {
-    height: 80%;
-}
-
-header.carousel .fill {
-    background-position: center;
-    background-size: contain;
-}
 
 #fondochido {
   background-position: center;
