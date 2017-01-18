@@ -80,6 +80,12 @@ header#fondochido {
 
 .iclc-p {
   text-align: justify;
+  z-index: 2;
+  font-family: Inconsolata;
+  src: url("Inconsolata-Regular.ttf");
+  font-size: 14px;
+        margin-left: 0px;
+
 }
 
 /* Footer Styles */
