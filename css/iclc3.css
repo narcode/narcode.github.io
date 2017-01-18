@@ -9,7 +9,7 @@
 html,
 body {
     height: 100%;
-    font-family: Monaco;
+    font-family: Inconsolata;
     overflow-x: hidden;
 }
 
@@ -146,3 +146,16 @@ footer {
         height: 60%;
     }
 }
+
+  @font-face {
+      font-family: Inconsolata;
+      src: url("Inconsolata-Regular.ttf");
+    }
+    
+    div {
+      font-family: Inconsolata;
+    }
+    
+    #main {
+      font-family: Inconsolata;
+    }
