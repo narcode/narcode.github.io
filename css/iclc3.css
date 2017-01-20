@@ -1,7 +1,5 @@
 /*!
- * Start Bootstrap - Modern Business (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ * qué ven?
  */
 
 /* Global Styles */
@@ -11,7 +9,6 @@ body {
     height: 100%;
     /*font-family: Inconsolata;*/
     font-family: Inconsolata;
-    src: url("Inconsolata-Regular.ttf");
     overflow-x: hidden;
 }
 
@@ -86,7 +83,6 @@ p {
   text-align: justify;
   z-index: 2;
   font-family: Inconsolata;
-  src: url("Inconsolata-Regular.ttf");
   font-size: 14px;
 }
 
@@ -167,7 +163,7 @@ navbar-inverse .navbar-nav>li>a {
 
   @font-face {
       font-family: Inconsolata;
-      src: url("Inconsolata-Regular.ttf");
+      src: url("../Inconsolata-Regular.ttf");
     }
     
     div {
