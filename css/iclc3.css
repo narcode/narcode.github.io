@@ -46,10 +46,12 @@ header#fondochido {
 }
 
 #click {
-  position:absolute;
-  top:50%;
-  left:50%;
-  background-color:white;
+position: absolute;
+top: 34%;
+left: 39%;
+z-index: 99;
+height: 32%;
+width: 22%;
 }
 
 #fondochido {
