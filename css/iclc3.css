@@ -139,7 +139,11 @@ footer {
 }
 
 .navbar-inversed {
-background-color: black;
+background-color: black!important;
+}
+
+navbar-inverse .navbar-nav>li>a {
+    color: white!important;
 }
 
 /* Responsive Styles */
