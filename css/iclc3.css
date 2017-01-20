@@ -45,6 +45,13 @@ header#fondochido {
     background-color: black;
 }
 
+#inicio {
+  top: 0px;
+position: absolute;
+height: 1px;
+z-index: 999;
+}
+
 #click {
 position: absolute;
 top: 34%;
