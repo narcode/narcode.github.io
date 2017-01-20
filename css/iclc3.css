@@ -161,20 +161,31 @@ navbar-inverse .navbar-nav>li>a {
 /* Responsive Styles */
 
 @media(max-width:991px) {
-    .customer-img,
-    .img-related {
-        margin-bottom: 30px;
-    }
+
+.iclc-logo_cont {
+  background-size: 95%;
+  }
+
+p {
+  text-align: right;
+  padding-left: 0;
+  padding-right: 0;
+}
+  
 }
 
 @media(max-width:767px) {
-    .img-portfolio {
-        margin-bottom: 15px;
-    }
 
-    header.carousel .carousel {
-        height: 60%;
-    }
+.iclc-logo_cont {
+  background-size: 95%;
+  }
+
+p {
+  text-align: right;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 }
 
   @font-face {
