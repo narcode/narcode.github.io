@@ -1,7 +1,7 @@
-website for ICLC 2017 repo 
+website for ICLC ${when}? 
 
 https://narcode.github.io/
 
 ### TODO ###
 
-# yect -> links en texto, trabajar en el menu, logo + images, colores, etc
+# define a date :(
