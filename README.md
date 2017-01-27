@@ -1,7 +1,7 @@
-website for ICLC ${when}? 
+website for ICLC 2017 
 
 https://narcode.github.io/
 
 ### TODO ###
 
-# define a date :(
+# 
