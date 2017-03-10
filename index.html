@@ -27,22 +27,6 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Script fondo chido-->
-    <script>
-var array = ["url(images/pic1.png)", "url(images/pic2.png)",
-"url(images/pic3.png)", "url(images/pic4.png)",
-"url(images/pic5.png)", "url(images/pic6.png)"];
-fondorand(array);
-
-  function fondorand(array) {
-  var fondo = document.querySelector('#fondochido');
-  var num = Math.floor(Math.random() * 6);
-
-  fondo.style.backgroundImage = array[num];
-  }
-
-    </script>
-
 </head>
 
 <body>
@@ -110,7 +94,21 @@ fondorand(array);
         <a href="#call"><div id="click"></div></a>
 
     </header>
+    <!-- Script fondo chido-->
+    <script>
+var array = ["url(images/pic1.png)", "url(images/pic2.png)",
+"url(images/pic3.png)", "url(images/pic4.png)",
+"url(images/pic5.png)", "url(images/pic6.png)"];
+fondorand(array);
 
+  function fondorand(array) {
+  var fondo = document.querySelector('#fondochido');
+  var num = Math.floor(Math.random() * 6);
+
+  fondo.style.backgroundImage = array[num];
+  }
+
+    </script>
 
 
     <!-- Page Content -->
