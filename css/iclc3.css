@@ -50,6 +50,10 @@ header#fondochido {
     opacity: 0;
 }
 
+header {
+  background-color: black;
+}
+
 #inicio {
   top: 0px;
 position: absolute;
