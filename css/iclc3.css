@@ -47,6 +47,7 @@ header#fondochido {
     background-position: center;
     background-size: cover;
     background-image:url('images/header_iclc.png');
+    opcacity: 0;
 }
 
 #inicio {
