@@ -39,6 +39,10 @@ background-repeat: no-repeat;
 background-size: 37%;
 background-position: center;
 background-color: rgba(0, 0, 0, 0.3);
+position: absolute;
+top: 0px;
+z-index: 23;
+width: 100%;
 }
 
 #fondochido {
