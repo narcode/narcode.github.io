@@ -38,6 +38,7 @@ height: 100%;
 background-repeat: no-repeat;
 background-size: 37%;
 background-position: center;
+background-color: rgba(0, 0, 0, 0.3);
 }
 
 header#fondochido {
@@ -94,8 +95,8 @@ width: 22%;
 p {
   margin-left: center;
     margin-right: center;
-  padding-right: 200px; 
-  padding-left: 200px; 
+  padding-right: 200px;
+  padding-left: 200px;
   text-align: justify;
   z-index: 2;
   font-family: Inconsolata;
@@ -171,7 +172,7 @@ p {
   padding-left: 0;
   padding-right: 0;
 }
-  
+
 }
 
 @media(max-width:767px) {
@@ -192,11 +193,11 @@ p {
       font-family: Inconsolata;
       src: url("../Inconsolata-Regular.ttf");
     }
-    
+
     div {
       font-family: Inconsolata;
     }
-    
+
     #main {
       font-family: Inconsolata;
     }
