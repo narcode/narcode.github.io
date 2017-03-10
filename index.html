@@ -94,22 +94,6 @@
 
         <a href="#call"><div id="click"></div></a>
     </header>
-    <!-- Script fondo chido-->
-    <script>
-var array = ["url(images/pic1.png)", "url(images/pic2.png)",
-"url(images/pic3.png)", "url(images/pic4.png)",
-"url(images/pic5.png)", "url(images/pic6.png)"];
-fondorand(array);
-
-  function fondorand(array) {
-  var fondo = document.querySelector('#fondochido');
-  var num = Math.floor(Math.random() * 6);
-
-  fondo.style.backgroundImage = array[num];
-  }
-
-    </script>
-
 
     <!-- Page Content -->
     <div id="call" style="height:10px"></div>
@@ -157,6 +141,25 @@ fondorand(array);
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script fondo chido-->
+    <script>
+var array = ["url(images/pic1.png)", "url(images/pic2.png)",
+"url(images/pic3.png)", "url(images/pic4.png)",
+"url(images/pic5.png)", "url(images/pic6.png)"];
+fondorand(array);
+
+  function fondorand(array) {
+  var fondo = document.querySelector('#fondochido');
+  var num = Math.floor(Math.random() * 6);
+
+  fondo.style.backgroundImage = array[num];
+
+  $('#fondochido').fadeIn('slow');
+  }
+
+    </script>
+
 
 </body>
 
