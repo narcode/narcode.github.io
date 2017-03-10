@@ -44,6 +44,9 @@ background-color: rgba(0, 0, 0, 0.3);
 header#fondochido {
     height: 100%;
     background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-image:url('images/header_iclc.png');
 }
 
 #inicio {
@@ -60,11 +63,6 @@ left: 39%;
 z-index: 99;
 height: 32%;
 width: 22%;
-}
-
-#fondochido {
-  background-position: center;
-  background-size: cover;
 }
 
 /* 404 Page Styles */
