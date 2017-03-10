@@ -47,7 +47,7 @@ header#fondochido {
     background-position: center;
     background-size: cover;
     background-image:url('../images/pic3.png');
-    opcacity: 0;
+    opacity: 0;
 }
 
 #inicio {
