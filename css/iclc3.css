@@ -22,6 +22,10 @@ margin: auto;
 width:50%;
 }
 
+.navbar-right {
+  width: auto;
+}
+
 .img-portfolio {
     margin-bottom: 30px;
 }
