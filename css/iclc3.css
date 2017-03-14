@@ -135,18 +135,18 @@ font-style: italic;
 }
 
 .iclc-link {
-  color: red;
+  color: #9500FF;
   font-weight: bold;
 }
 
 .iclc-link:visited {
-  color: red;
+  color: #9500FF;
   font-weight: bold;
   text-decoration: none
 }
 
 .iclc-link:hover {
-  color: green;
+  color: #FF00B7;
   text-decoration: none
 }
 
