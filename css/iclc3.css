@@ -204,6 +204,10 @@ p {
   padding-right: 0;
 }
 
+ul {
+  width: 90%;
+}
+
 }
 
   @font-face {
