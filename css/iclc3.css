@@ -18,8 +18,9 @@ body {
 }
 
 ul {
-margin: auto;
-width:50%;
+  font-size: 13.5px;
+  margin: auto;
+  width:50%;
 }
 
 .navbar-right {
@@ -110,13 +111,13 @@ width: 22%;
 
 p {
   margin-left: center;
-    margin-right: center;
+  margin-right: center;
   padding-right: 200px;
   padding-left: 200px;
   text-align: justify;
   z-index: 2;
   font-family: Inconsolata;
-  font-size: 14px;
+  font-size: 13.5px;
 }
 
 /* Footer Styles */
