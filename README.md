@@ -1,5 +1,3 @@
-# narcode.github.io
+website for ICLC 2017
 
-ICLC 3 web
-
-# this is the development Env....
+# first commit test
