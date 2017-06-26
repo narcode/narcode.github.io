@@ -189,6 +189,11 @@ navbar-inverse .navbar-nav>li>a {
   margin:0;
 }
 
+.titulo {
+  font-weight: 700;
+  font-size: 112%;
+}
+
 /* Responsive Styles */
 
 @media(max-width:991px) {
