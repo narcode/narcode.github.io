@@ -184,6 +184,11 @@ navbar-inverse .navbar-nav>li>a {
   color:white;
 }
 
+.program-list {
+  width: 80%;
+  margin:0;
+}
+
 /* Responsive Styles */
 
 @media(max-width:991px) {
