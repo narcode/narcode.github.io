@@ -191,7 +191,8 @@ navbar-inverse .navbar-nav>li>a {
 
 .titulo {
   font-weight: 700;
-  font-size: 112%;
+  font-size: 120%;
+  padding: 0;
 }
 
 /* Responsive Styles */
