@@ -227,6 +227,10 @@ ul {
   width: 90%;
 }
 
+.col-md-3 {
+  display: none;
+}
+
 }
 
   @font-face {
