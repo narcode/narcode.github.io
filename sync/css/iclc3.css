@@ -24,11 +24,11 @@ ul {
 }
 
 dropdown-menu {
-  background-color: black
+  background-color: black!important;
 }
 
 .dropdown-menu > li > a {
-  color: white;
+  color: white!important;
 }
 
 .navbar-right {
