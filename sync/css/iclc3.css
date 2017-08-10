@@ -23,12 +23,12 @@ ul {
   width:50%;
 }
 
-dropdown-menu {
-  background-color: black!important;
+.dropdown-menu {
+  background-color: black;
 }
 
 .dropdown-menu > li > a {
-  color: white!important;
+  color: white;
 }
 
 .navbar-right {
