@@ -176,25 +176,6 @@ navbar-inverse .navbar-nav>li>a {
     color: white!important;
 }
 
-.navbar-nav > li > .dropdown-menu {
-  background-color: black;
-}
-
-.dropdown-menu > li > a {
-  color:white;
-}
-
-.program-list {
-  width: 80%;
-  margin:0;
-}
-
-.titulo {
-  font-weight: 700;
-  font-size: 122%;
-  padding: 0;
-}
-
 /* Responsive Styles */
 
 @media(max-width:991px) {
@@ -225,10 +206,6 @@ p {
 
 ul {
   width: 90%;
-}
-
-.col-md-3 {
-  display: none;
 }
 
 }
