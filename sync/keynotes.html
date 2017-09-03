@@ -6,16 +6,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="ICLC 2017, International Conference on Live Coding">
+    <meta name="author" content="narcode + veería">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+<meta property="og:title" content="ICLC 2017" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://iclc.livecodenetwork.org/2017/index.html" />
+<meta property="og:image" content="https://iclc.livecodenetwork.org/2017/images/social_media-img.png" />
+<meta property="og:description" content="ICLC 2017 website" />
+
+    <title>ICLC 2017</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/iclc3.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -30,7 +36,7 @@
 </head>
 
 <body>
-
+ <div id="inicio"></div>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -42,42 +48,56 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">ICLC 3</a>
+                <a class="logito" href="index.html"><img src="images/header_logo_s.png" width="47px"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="about.html">Convocatoria</a>
-                    </li>
-                    <li>
-                        <a href="services.html">Programa</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contacto</a>
-                    </li>
+                    <!--<li>
+                        <a href="en/call.html">Open Call in English</a>
+                    </li>-->
+                    <!-- programa -->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conferencia <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">Programa</a>
+                                <a href="program.html">Programa</a>
+                                <a href="keynotes.html">Keynotes</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="portfolio-3-col.html">Conferencias</a>
                             </li>
                             <li>
                                 <a href="portfolio-2-col.html">Programa Música</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">FAQ <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
+                    <li>
+                        <a href="call.html">Convocatoria</a>
+                    </li>
+                    <li>
+                        <!-- <a href="contact.html">Contacto</a> -->
+                    </li>
+                        <li>
+                            <a href="team.html">Equipo</a>
+                        </li>
                             <li>
-                                <a href="faq.html">FAQ</a>
+                                <a href="en/index.html">English</a>
                             </li>
-                        </ul>
-                    </li>
+                            <li>
+                              <a href='https://www.facebook.com/livecodenet/' target='_blank'><i class='fa fa-facebook'></i></a>
+                            </li>
+                            <li>
+                              <a href='https://www.youtube.com/watch?v=-AVo2Bk1_Ac' target='_blank'><i class='fa fa-youtube'></i></a>
+                            </li>
+                            <li>
+                              <a href='https://twitter.com/incolico' target='_blank'><i class='fa fa-twitter'></i></a>
+                            </li>
+                            <li>
+                              <a href='https://www.instagram.com/iclc2017/' target='_blank'><i class='fa fa-instagram'></i></a>
+                            </li>
+                        <!-- </ul> -->
+                    <!-- </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -86,21 +106,14 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container">
+    <div id="call" style="height:10px"></div>
 
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Portfolio Item
-                    <small>Subheading</small>
-                </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li class="active">Portfolio Item</li>
-                </ol>
-            </div>
-        </div>
+    <div class="container">
+      <p style="font-size:122%;">
+         <br> <br> <b>
+          Keynotes 2017:
+      </b></p>
+
         <!-- /.row -->
 
         <!-- Portfolio Item Row -->
@@ -112,7 +125,6 @@
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
@@ -139,62 +151,42 @@
             </div>
 
             <div class="col-md-4">
-                <h3>Project Description</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                <h3>Project Details</h3>
-                <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Dolor Sit Amet</li>
-                    <li>Consectetur</li>
-                    <li>Adipiscing Elit</li>
-                </ul>
+                <h3>Julio d’Escriván</h3>
+                <p>
+Julio d’Escriván es compositor y ejecutante de música contemporánea. Su trabajo está fundado en una carrera que incluye la escritura de jingles, branding commercial y música para documentales y cine. Como compositor de música instrumental, ha escrito obras para solistas, ensembles y orquestas desde 1982. Su obra ha sido escuchada internacionalmente desde fines de los 80s y su interés en la música electroacústica y visual data de la misma época y es una exploración que continúa. Entre 1991 y el 2003 se ganó la vida grabando y produciendo música original para medios televisivos en Latinoamérica. Desde su arribo a Inglaterra en el 2003, decidió centrar su atención en exploraciones más personales. Un encuentro casual con el conocido programador Inglés Nick Collins en la galleria de arte Kettle’s Yard de Cambridge alrededor del 2005, lo retó a abordar los problemas que surgen al crear música con lenguajes de programación y eventualmente el Live Coding. Esta amistad lo llevó asi mismo a proyectos como el Cambridge Companion to Electronic Music, de Cambridge University Press (2007 and 2017 para su 2da Edición, por publicarse). También tuvo la oportunidad de convertirse en un asiduo usuario de SuperCollider y contribuir con Scott Wilson en el libro del mismo nombre  que sería publicado en el 2011 por la MIT Press. Desde el 2012, Julio practica el soundpainting o ‘composición en vivo’ a través de un lenguaje de señas, afín al Live Coding. En años recientes, Julio ha grabado varios CDs con Iñigo Ibaibarriaga (Saxofón), para Zawp Records en España, como parte de su Proyecto Fusil y con el Ensemble Klem de Bilbao para Zawp Records en España. En la actualidad, Julio es profesor de música e imágen en movimiento en la Universidad de Huddersfield, Inglaterra, donde además es director de tésis doctorales y de maestrías.                </p>
+                <h3>Keynote abstract:</h3>
+                <p>
+                  <strong>Live Coding, seres humanos y los límites musicales de una forma instantánea</strong><br>
+
+                  Desde hace unos años he practicado el Soundpainting con ensembles instrumentales y a veces incluyendo Live Coding. El Soundpainting es un lenguaje de signos manuales que describe tanto eventos musicales sencillos como patrones y procesos. Fué inventado a mediados de los 70s en Nueva York por el compositor e intérprete americano Walter Thompson, quien lo describe como un lenguaje para la ‘composición en vivo’.<br>
+
+                  Un practicante de soundpainting es en esencia un director cuyos gestos, aparte de transmitir el pulso rítmico y la expresividad dinámica, también comunica contenido musical preciso. Es decir, patrones, desarrollos melódicos, técnicas extendidas y diversos procesos musicales. De esta manera, se crean obras en el momento en un trabajo que oscila entre los polos de la improvisación y la composición en vivo; el director en este caso, expone al público su pensamiento musical en<br> desarrollo. Por estas razones y a mi parecer, el Soundpainting es pues una forma de Live Coding para ensambles instrumentales<br><br>
+
+                  En esta presentación, introduzco el conjunto de gestos básicos del soundpainting y lo comparo a lenguajes como Super Collider y TidalCycles, mostrando ejemplos de mi trabajo en años recientes. Espero a la vez contextualizar todo esto reflexionando sobre las condiciones musicales que emergen, dada una aproximación al Live Coding y al Soundpainting desde la composición en vivo.<br><br>
+                </p>
             </div>
 
         </div>
         <!-- /.row -->
-
-        <!-- Related Projects Row -->
-        <div class="row">
-
-            <div class="col-lg-12">
-                <h3 class="page-header">Related Projects</h3>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-        </div>
-        <!-- /.row -->
-
-        <hr>
 
         <!-- Footer -->
         <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
+            <div>
+              <div class='narcode_footer' style="text-align: center">
+                  <img src="images/00_footer_toplap.png">
+                  <img src="images/01_footer_iclc.png">
+                  <img src="images/02_footer_algorave.png">
+                  <img src="images/03_footer_cmmas.png">
+                  <img src="images/04_footer_bioescenica.png">
+                  <img src="images/05_footer_cecultclav.png">
+                  <img src="images/06_footer_comasuntintan.png">
+                  <img src="images/07_footer_cultura.png">
+                  <img src="images/08_footer_cenart.png">
+                  <img src="images/09_footer_reddecenart.png">
+                  <img src="images/10_footer_unam.png">
+                  <img src="images/11_footer_secdecult.png">
+                  <img src="images/12_footer_michoacan.png">
+              </div>
             </div>
         </footer>
 
