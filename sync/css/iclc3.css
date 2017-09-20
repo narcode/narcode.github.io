@@ -211,6 +211,9 @@ p {
 }
 
 @media(max-width:767px) {
+.carousel {
+  width: 100%;
+}
 
 .iclc-logo_cont {
   background-size: 95%;
