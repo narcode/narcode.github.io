@@ -6,6 +6,16 @@ NL_CL is a space for engaging with Live Coding through practice, experimentation
 
 We organize a series of alterntive live coding sessions exploring a specific topic per session.
 
-NL_CL is organized by live coders who reside in The Netherlands. Feel invited to join the mailing list to participate and to stay on top of activities.
+Try sending a message to livecode-nl@we.lurk.org to introduce yourself! 
 
-nl_cl
+Always feel free to start new discussions and share your thoughts regarding the live coding practice, by either sending a messages to the list via email: livecode-nl@we.lurk.org or by replying to a message you receive from this list.
+
+You can browse past discussion threads, and also reply to them and make new ones, on the 'hyperkitty' web interface:
+  https://we.lurk.org/hyperkitty/list/livecode-nl@we.lurk.org/
+
+You can access your settings via postorius:
+  https://we.lurk.org/postorius/lists/livecode-nl.we.lurk.org/
+
+For the web-interface you will have to register but this can be done with existing social accounts (gtihub, twitter, etc) or you can create a new one.
+
+WELCOME on behalf of nl_cl
