@@ -1,6 +1,6 @@
 nl_cl
 
-Welcome to the **Netherlands Coding Live** mailing list 💻 🇳🇱
+Welcome to the **Netherlands Coding Live** mailing list {emoji_laptop}+ {emoji NL flag}
 
 NL_CL is a space for engaging with Live Coding through practice, experimentation, openess, discussion and performance. 
 
